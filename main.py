@@ -13,7 +13,7 @@ class Main_win():
         self.label = tk.Label(win, text='Выбери окно: ')
         self.label.pack()
 
-        self.windows_listbox = tk.Listbox(win, width=50, height=10)
+        self.windows_listbox = tk.Listbox(win, width=100, height=10)
         self.windows_listbox.pack()
 
         self.refresh_win_bt = tk.Button(win, text='Обновить', command=self.populate_window_list)
